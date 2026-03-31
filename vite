@@ -1,0 +1,20 @@
+Nesta aula, vamos conhecer o Vite (lê-se “Veet”), a forma mais moderna de iniciar uma aplicação React e outras aplicações frontend. Vamos entender:
+
+    O que é o Vite: uma ferramenta de build e desenvolvimento rápida, que pode ser usada com React, Vue, Angular e outros frameworks.
+    Por que ele é tão rápido: Durante o desenvolvimento, o Vite usa ESBuild para compilar o código e evita o bundling, utilizando imports nativos do navegador para ganhar performance. Em produção, ele usa Rollup + ESBuild, gerando um bundle otimizado para carregamento rápido.
+    Durante o desenvolvimento, o Vite usa ESBuild para compilar o código e evita o bundling, utilizando imports nativos do navegador para ganhar performance.
+    Em produção, ele usa Rollup + ESBuild, gerando um bundle otimizado para carregamento rápido.
+    Comparação com o CRA (Create React App): o Vite é uma alternativa moderna e muito mais performática.
+    Ciclo de vida da aplicação: entender a diferença entre desenvolvimento (velocidade e agilidade) e produção (otimização e performance).
+
+O objetivo é que você compreenda por que o Vite é rápido, saiba quando cada ferramenta entra em ação (ESBuild e Rollup) e consiga iniciar seu primeiro projeto com Vite
+
+nicializando um projeto com Vite
+
+Nesta aula, você vai aprender na prática como iniciar uma aplicação React moderna utilizando o Vite. O passo a passo inclui:
+
+    Criação do projeto: Criar uma pasta para o projeto (react-vite).Abrir o terminal (Git Bash ou outro) na pasta do projeto.
+    Criação com Vite: Executar o comando recomendado pela documentação do Vite. Escolher o nome do projeto, framework React e JavaScript como linguagem. Entender rapidamente o que é a opção + SWC.
+    Instalação e preparação do ambiente: Entrar na pasta do projeto e rodar npm install para baixar as dependências.Abrir o projeto no VSCode e entender por que a pasta node_modules não vai para o GitHub.
+    Rodando o projeto: Usar o comando npm run dev para rodar o servidor de desenvolvimento.Acessar o projeto no navegador via localhost:5173.
+    Resultado: O servidor do React estará rodando com Vite. Próximas aulas irão explicar a estrutura de arquivos criada automaticamente.

@@ -1,0 +1,38 @@
+React não é um framework, ele é uma biblioteca.
+
+Biblioteca: um conjunto de funcionalidades que pomdemos usar
+quando necessário. Mais possibilidades de modificação
+
+Framework: estrutura completa que define como seu projeto deve 
+ser organizado. Código pronto para uso.
+
+Vantagens de usar o React:
+ Componentes: Criação de componentes dinâmicos e reutilizáveis
+
+ produtividade: facilita a criação de projetos
+
+ Comunidade: Grande ecossistema e suporte da comunidade.
+
+ Como funciona o DOM? (Document object Model)
+
+O virtual DOM otimiza a renderização de interaces no React. 
+Funciona em 3 etapas principais:
+
+1. Geração do virtual DOM 
+A cada interação do usuário, o React cria
+umas nova versão do Virtual DOM.
+
+2. Diffing (diferenciação)
+Ele compara a nova versão com a anterior, identificando as modificações como uma 
+revisão de documento.
+
+3. Reconciliação 
+Somente os elementos alterados são atualizados no DOM real, otimizando a performance
+da interface.
+
+
+O React é uma biblioteca JavaScript de código aberto criada pelo Facebook para construir 
+interfaces de usuário, sendo amplamente usada no desenvolvimento de Single Page Applications (SPA). 
+Nessas aplicações, a navegação entre páginas ocorre sem recarregamento completo, como no Facebook. 
+Diferente de um framework, que define a estrutura e chama seu código, uma biblioteca oferece 
+funcionalidades que você usa conforme necessário, proporcionando mais flexibilidade no desenvolvimento.
